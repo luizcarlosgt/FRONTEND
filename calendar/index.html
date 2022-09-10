@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calendar</title>
+</head>
+<body>
+    <div id="app">
+
+    <div class="calendar">
+        <div class="date">
+
+            <div class="box">
+                <h3>{{textDate}}</h3>
+            </div>
+
+            <div class="days">
+                <div class="day">D</div>
+                <div class="day">S</div>
+                <div class="day">T</div>
+                <div class="day">Q</div>
+                <div class="day">Q</div>
+                <div class="day">S</div>
+                <div class="day">S</div>
+                <div class="number" id="nullDays" v-for="day in numberForFirstDay"></div>
+                <div class="number numberDays" v-for="number in numbers">{{number}}</div>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="https://www.kolpaper.com/wp-content/uploads/2022/03/naruto-wallpaper-kolpaper-22.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="logo">
+        <img src="https://logodownload.org/wp-content/uploads/2014/10/naruto-logo-shippuden.png" alt="">
+    </div>
+
+    </div>
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>  
+    <script src="js/script.js"></script>
+</html>
