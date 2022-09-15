@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(24, 175, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#parentEditor {
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius:3px;
+    padding-bottom:2px;
+    background-color:#fff;
+    box-shadow: 4px 4px 25px rgb(125, 121, 121);
+}
+
+#painelEditor{
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:50px;
+    background-color:#f7f8f9;
+}
+
+#editor {
+    padding: 25px;
+    height:350px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+#editor:focus{
+    outline: none;
+}
+
+.btnColor{
+    font-size:15px;
+    font-weight: bold;
+    outline: none;
+    border:none;
+    cursor:pointer;
+    width:25px;
+    height:25px;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+#fontColor{
+    color:#3c8dbc;
+}
+
+#backColor{
+    color:orange;
+}
+
+#paleta{
+    width:15px;
+    height:15px;
+    border:none;
+    outline:none;
+}
+
+.demo-icon{
+    cursor:pointer;
+    color:rgb(67, 65, 65);
+}
+
+.demo-icon:hover{
+    color:rgb(24, 175, 239);
+}
+
+#inputFontSize{
+    border:1px solid #ccc;
+    outline:none;
+    border-radius:3px;
+    padding:2px;
+    color:#3d3d3d;
+    font-size: 9px;
+}
+
+@media (max-width: 760px) {
+    #parentEditor{
+        width: 450px;
+    }
+
+    #painelEditor{
+        display: flex;
+        height: 70px;
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+
+    .btnColor, #inputFontSize, #paleta{
+        margin-left: 5px;
+    }
+
+}
