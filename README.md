@@ -10,7 +10,11 @@ FRONTEND
 
 ## Images
 
+<img width="300px" src="images/Screenshot_1.png" />
 <img width="300px" src="images/Screenshot_2.png" />
+<img width="300px" src="images/Screenshot_3.png" />
+<img width="300px" src="images/Screenshot_4.png" />
+<img width="300px" src="images/Screenshot_5.png" />
 
 
 ## Directory Hierarchy
