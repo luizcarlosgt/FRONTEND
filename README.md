@@ -8,6 +8,11 @@ FRONTEND
 <!-- - Full-preprint: [paper position]() -->
 <!-- - Video: [video position]() -->
 
+## Images
+
+<img width="300px" src="images/Screenshot_2.png" />
+
+
 ## Directory Hierarchy
 ```
 |—— calendar
