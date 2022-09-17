@@ -9,13 +9,13 @@ FRONTEND
 <!-- - Video: [video position]() -->
 
 ## Images
-
-<img width="300px" src="images/Screenshot_1.png" />
-<img width="300px" src="images/Screenshot_2.png" />
-<img width="300px" src="images/Screenshot_3.png" />
-<img width="300px" src="images/Screenshot_4.png" />
-<img width="300px" src="images/Screenshot_5.png" />
-
+<div float="left">
+    <img width="250px" height="250px" src="images/Screenshot_1.png" />
+    <img width="250px" height="250px" src="images/Screenshot_2.png" />
+    <img width="250px" height="250px" src="images/Screenshot_3.png" />
+    <img width="400px" height="300px" src="images/Screenshot_4.png" />
+    <img width="300px" height="400px" src="images/Screenshot_5.png" />
+</div>
 
 ## Directory Hierarchy
 ```
