@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primaryColor: rgb(159, 158, 158); 
+    --secondaryColor: rgb(228, 50, 50); 
+}
+
+
+
+.container{
+    border: 1px solid rgb(237, 237, 237);
+    width: 360px;
+    height: 500px;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0px 0px 5px rgb(57, 57, 57);
+}
+
+.container form{
+    margin: 30px 50px;
+}
+
+.container h3{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    color: var(--secondaryColor);
+}
+
+.container form input{
+    border-radius: 18px;
+    border: 1.8px solid rgb(237, 237, 237);
+    width: 95%;
+    height: 35px;
+    padding-left: 20px;
+    margin-top: 12px;
+}
+
+.container form button{
+    border-radius: 18px;
+    border: 1px solid red;
+    background:  var(--secondaryColor);
+    color: white;
+    width: 110%;
+    height: 42px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(164, 163, 163);
+}
+
+input, input::placeholder{
+    font-size: 15px;
+    color: var(--primaryColor);
+}
+
+.container form textarea{
+    border: 1.8px solid rgb(222, 222, 222);
+    margin-top: 15px;
+    border-radius: 5px;
+    resize: none;
+    padding: 15px;
+    color: var(--primaryColor);
+}
+
+#line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(238, 237, 237);
+    margin: 15px 5px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    margin-right: 8px;
+    cursor: pointer;
+    filter: invert(0.8) brightness(50%) sepia(100%) saturate(10000%) hue-rotate(0deg);
+    border-radius: 8px;
+}
+
+:focus{
+    outline-color: var(--secondaryColor);
+}
+
+i{
+    position: relative;
+    float: right;
+    margin-top: -30px;
+    margin-right: 5px;
+}
+
+.modal{
+    display: none;
+}
+
+
+.modal .fechar{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.modal .fechar:hover{
+    cursor: pointer;
+    text-shadow: 2px 3px 3px gray;
+}
+
+.modal.active{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top:0px;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    background: rgba(150, 150, 150, 0.493);
+    color: var(--secondaryColor);
+}

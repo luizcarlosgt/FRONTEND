@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(23, 144, 250);
+    color: white;
+}
+
+.banner{
+    width: 400px;
+    margin:auto;
+}
+
+.banner img{
+    width: 100%;
+    margin-top: 20%;
+}
+
+#ceta{
+    position: relative;
+    width: 100px;
+    top: -110px;
+    left: -5px;
+}
+
+form{
+    position: relative;
+    top: -120px;
+    width: 300px;
+    margin:auto;
+    /* border: 1px solid black; */
+    padding-left:50px;
+}
+
+form input{
+    padding: 10px;
+    width: 250px;
+}
+
+form button{
+    margin-top: 40px;
+    width: 275px;
+    padding: 10px;
+    color: white;
+    background: rgb(244, 31, 31);
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 20px white;
+}
