@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+a{
+    color: rgb(183, 183, 183);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li{
+    padding-left: 10px;
+}
+
+header .logo img{
+    width: 180px;
+    margin: 0px 0px 0px 100px;
+}
+
+header .userbox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 35%;
+}
+
+header i{
+    margin: 0px 8px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.app_background {
+    background-image: url("../src/img/banner.png");
+    width: 100%;
+    height: 100vh;
+    -webkit-mask-image: linear-gradient(to bottom, transparent 1%, black);
+}
+
+.info{
+    width: 400px;
+    position: absolute;
+    top: 20%;
+    left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info p{
+    color: #fff;
+}
+
+.info img{
+    width: 400px;
+}
+
+.info button{
+    padding: 8px 20px;
+    margin: 15px 5px;
+    font-weight: 600;
+    border: none;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.info button:hover{
+    cursor: pointer;
+}
+
+.info button#btn-assistir{
+    color: #000;
+}
+
+.info button#btn-maisinfo{
+    background-color: rgba(103, 103, 103, 0.733);
+    color: #fff;
+}
+
+.info button i{
+    margin-right: 10px;
+}

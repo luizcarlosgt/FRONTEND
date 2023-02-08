@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+img#animelogo{
+    width: 350px;
+    position: absolute;
+    top: 430px;
+    right: 20px;
+    opacity: .1;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    width: 400px;
+}
+
+.card{
+    height: 600px;
+    background-image: url("https://1.bp.blogspot.com/-AtyvgbkzmXg/XYOC_rklSxI/AAAAAAAAdkI/ik1sqwLPoHQB0rQwW8CL9OImg7J1NGZyQCNcBGAsYHQ/s1600/love-the-heights-bd-1440x2560.jpg");
+    background-size: cover;
+    transition: 3s linear;
+}
+
+small{
+    font-weight: 600;
+    color: rgb(251, 243, 237);
+}
+
+@media(max-width:600px) {
+    img#animelogo{
+        display: none;
+    }
+}
